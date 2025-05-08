@@ -1,2 +1,25 @@
-public class WarriorClass {
+public class Warrior extends Character implements Attacker {
+    private int stamina; //random between 10-50
+    private int strength; // random between 1 and 10
+
+    public Warrior (String name, int hp, int stamina, int strength) {
+        super(name, hp);
+        this.stamina = stamina;
+        this.strength = strength;
+    }
+
+    public int getStamina() {
+        return stamina;
+    }
+    public void setStamina(int stamina) {
+        this.stamina = stamina;
+    }
+
+    public int getStrength() {
+        return strength;
+    }
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
+
 }
