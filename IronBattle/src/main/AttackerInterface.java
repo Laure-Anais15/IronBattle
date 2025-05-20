@@ -1,4 +1,3 @@
-public class AttackerInterface {
-
-    public void attack(character)
+public interface Attacker {
+    void attack(Character target);
 }

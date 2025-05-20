@@ -1,6 +1,6 @@
 
 
-// missing in other part of the code : hp random between 100-200 to warriors and 50-100 for wizards, representing the health points
+// random between 100-200 to warriors and 50-100 for wizards, representing the health points
 
 
 import java.util.UUID;
