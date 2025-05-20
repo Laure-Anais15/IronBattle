@@ -1,27 +1,33 @@
+package rpg;
+
+import java.util.concurrent.ThreadLocalRandom;
+
 public class Warrior extends Character implements Attacker {
     private int stamina; //random between 10-50
-    private int strength; // random between 1 and 10
+    final int strength; // random between 1 and 10
 
-    public Warrior (String name, int hp, int stamina, int strength) {
-        super(name, hp);
-        this.stamina = stamina;
-        this.strength = strength;
+    public Warrior (String name) {
+        super(name, ThreadLocalRandom.current().nextInt(100, 201));
+        ThreadLocalRandom rnd = ThreadLocalRandom.current();
+        this.stamina = rnd.nextInt(10, 51);
+        this.strength = rnd.nextInt(1, 11);
     }
 
-    public int getStamina() {
+    /*public int getStamina() {
         return stamina;
-    }
+    } NEVER USED */
     public void setStamina(int stamina) {
         this.stamina = stamina;
     }
 
-    public int getStrength() {
+    /* public int getStrength() {
         return strength;
     }
     public void setStrength(int strength) {
         this.strength = strength;
-    }
+    } NEVER USED */
 
+    @Override
     public void attack(Character target) {
         ThreadLocalRandom rnd = ThreadLocalRandom.current();
         boolean heavyAttempt = rnd.nextBoolean();
@@ -45,5 +51,11 @@ public class Warrior extends Character implements Attacker {
 
     private void log(String fmt, Object... args) {
         System.out.println("[" + getName() + "] " + fmt.formatted(args));
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s [HP=%d, Stamina=%d, Strength=%d, Alive=%b]",
+                getName(), getHp(), stamina, strength, isAlive());
     }
 }
