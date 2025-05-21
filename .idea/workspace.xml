@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dcad402-cdfe-4e1b-8ec4-d68185dbf353" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/IronBattle.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/IronBattle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IronBattle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Attacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Attacker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +50,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\IronBattle\.idea" />
       <recent name="D:\GitHub\IronBattle" />
       <recent name="D:\GitHub\IronBattle\IronBattle" />
       <recent name="D:\GitHub\IronBattle\IronBattle\src\main" />
