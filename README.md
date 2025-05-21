@@ -11,9 +11,7 @@
 - [Contenido del Proyecto](#contenido-del-proyecto)
 - [¿Qué ocurre durante el combate?](#qué-ocurre-durante-el-combate)
 - [Estructura del proyecto](#estructura-del-proyecto)
-- [Cómo contribuir](#cómo-contribuir)
 - [Roadmap](#roadmap)
-- [Aprendizajes y objetivos](#aprendizajes-y-objetivos)
 - [Licencia](#licencia)
 - [Autor](#autor)
 
