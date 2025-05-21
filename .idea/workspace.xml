@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dcad402-cdfe-4e1b-8ec4-d68185dbf353" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/IronBattle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/IronBattle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IronBattle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Attacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Attacker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IronBattle/src/rpg/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpg/Wizard.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LlucMH&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Laure-Anais15/IronBattle.git&quot;,
+    &quot;accountId&quot;: &quot;4a662064-0800-4cf5-a15e-245d1a751553&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2x6FPJ9ay5afWFaucNaU28Xzobf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\IronBattle" />
+      <recent name="D:\GitHub\IronBattle\IronBattle" />
+      <recent name="D:\GitHub\IronBattle\IronBattle\src\main" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dcad402-cdfe-4e1b-8ec4-d68185dbf353" name="Changes" comment="" />
+      <created>1747250591573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747250591573</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="a5c61ce5-f7d0-4640-b93c-9bd51cfa402c" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="a5c61ce5-f7d0-4640-b93c-9bd51cfa402c">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
