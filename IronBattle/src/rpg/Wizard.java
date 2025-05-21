@@ -12,8 +12,6 @@ public class Wizard extends Character implements Attacker {
         this.mana         = rnd.nextInt(10, 51);
         this.intelligence = rnd.nextInt(1, 51);
     }
-    /*public int getMana()         { return mana; }
-    public int getIntelligence() { return intelligence; } NEVER USED */
 
     public void setMana(int mana){
         this.mana = mana;
@@ -25,15 +23,20 @@ public class Wizard extends Character implements Attacker {
         boolean fireballAttempt = rnd.nextBoolean();   // 50 % try fireball
         int damage = 0;
 
-        if (fireballAttempt && mana >= 5) {            // Fireball
+        // Fireball
+        if (fireballAttempt && mana >= 5) {
             damage = intelligence;
             mana  -= 5;
             log("Fireball ➜ %d damage (-5 mana)", damage);
-        } else if (mana >= 1) {                        // Staff hit /has to be >=1 to have the "0 mana" option
+        }
+        // Staff hit /has to be >=1 to have the "0 mana" option
+        else if (mana >= 1) {
             damage = 2;
             mana  += 1;
             log("Staff hit ➜ %d damage (+1 mana)", damage);
-        } else {                                       // Sin mana
+        }
+        // No mana left
+        else {
             mana += 2;
             log("No mana left ➜ 0 damage (+2 mana)");
         }

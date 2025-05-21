@@ -3,8 +3,8 @@ package rpg;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Warrior extends Character implements Attacker {
-    private int stamina; //random between 10-50
-    final int strength; // random between 1 and 10
+    private int stamina;
+    final int strength;
 
     public Warrior (String name) {
         super(name, ThreadLocalRandom.current().nextInt(100, 201));
@@ -13,19 +13,9 @@ public class Warrior extends Character implements Attacker {
         this.strength = rnd.nextInt(1, 11);
     }
 
-    /*public int getStamina() {
-        return stamina;
-    } NEVER USED */
     public void setStamina(int stamina) {
         this.stamina = stamina;
     }
-
-    /* public int getStrength() {
-        return strength;
-    }
-    public void setStrength(int strength) {
-        this.strength = strength;
-    } NEVER USED */
 
     @Override
     public void attack(Character target) {
@@ -36,14 +26,14 @@ public class Warrior extends Character implements Attacker {
         if (heavyAttempt && stamina >= 5) {
             damage  = strength;
             stamina -= 5;
-            log("Heavy attack ⇒ %d dmg (-5 stamina)", damage);
+            log("Heavy attack ⇒ %d damage (-5 stamina)", damage);
         } else if (stamina >= 1) {
             damage  = strength / 2;
             stamina += 1;
-            log("Weak attack ⇒ %d dmg (+1 stamina)", damage);
+            log("Weak attack ⇒ %d damage (+1 stamina)", damage);
         } else {
             stamina += 2;
-            log("Exhausted ⇒ 0 dmg (+2 stamina)");
+            log("Exhausted ⇒ 0 damage (+2 stamina)");
         }
 
         target.setHp(target.getHp() - damage);

@@ -15,13 +15,6 @@ public abstract class Character implements Attacker {
         //this.isAlive = true;
     }
 
-    /*public String getId(){
-        return id;
-    }
-    public void setId(String id){
-        this.id = id;
-    } NEVER USED */
-
     public String getName() {
         return name;
     }

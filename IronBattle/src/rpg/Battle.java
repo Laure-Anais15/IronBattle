@@ -17,7 +17,6 @@ public class Battle {
 
         while (true) {
             System.out.printf("\n-- Ronda %d --%n", round++);
-            // Ambos calculan su acción ANTES de aplicar daño
             a.attack(b);
             b.attack(a);
 
