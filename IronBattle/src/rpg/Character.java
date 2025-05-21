@@ -1,35 +1,21 @@
-
-
-// random between 100-200 to warriors and 50-100 for wizards, representing the health points
-
+package rpg;
 
 import java.util.UUID;
 
-public abstract class Character {
-    private String id;
-    private String name;
-    private int hp; //add random hp limits depending on wizard/warrior
+public abstract class Character implements Attacker {
+    final String id;
+    final String name;
+    private int hp;
     private boolean isAlive = true;
 
     public Character (String name, int hp) {
         this.id = UUID.randomUUID().toString();
         this.name = name;
         this.hp = hp;
-        this.isAlive = true;
-    }
-
-    public String getId(){
-        return id;
-    }
-    public void setId(String id){
-        this.id = id;
     }
 
     public String getName() {
         return name;
-    }
-    public void setName (String name) {
-        this.name = name;
     }
 
     public int getHp() {
@@ -48,5 +34,10 @@ public abstract class Character {
     }
     public void setAlive(boolean alive){
         isAlive = alive;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s [HP=%d, Alive=%b]", name, hp, isAlive);
     }
 }
