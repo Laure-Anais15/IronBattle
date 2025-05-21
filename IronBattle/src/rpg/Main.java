@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
 
         // 1. Create characters
-
         Warrior w = new Warrior("Aragorn");
         Wizard m = new Wizard("Gandalf");
 

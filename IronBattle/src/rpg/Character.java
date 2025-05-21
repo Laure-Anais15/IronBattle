@@ -12,15 +12,11 @@ public abstract class Character implements Attacker {
         this.id = UUID.randomUUID().toString();
         this.name = name;
         this.hp = hp;
-        //this.isAlive = true;
     }
 
     public String getName() {
         return name;
     }
-    /*public void setName (String name) {
-        this.name = name;
-    } NEVER USED */
 
     public int getHp() {
         return hp;

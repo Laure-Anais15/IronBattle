@@ -20,7 +20,7 @@ public class Wizard extends Character implements Attacker {
     @Override
     public void attack(Character target) {
         ThreadLocalRandom rnd = ThreadLocalRandom.current();
-        boolean fireballAttempt = rnd.nextBoolean();   // 50 % try fireball
+        boolean fireballAttempt = rnd.nextBoolean();   // 50 % chance fireball
         int damage = 0;
 
         // Fireball
@@ -29,7 +29,6 @@ public class Wizard extends Character implements Attacker {
             mana  -= 5;
             log("Fireball ➜ %d damage (-5 mana)", damage);
         }
-        // Staff hit /has to be >=1 to have the "0 mana" option
         else if (mana >= 1) {
             damage = 2;
             mana  += 1;
