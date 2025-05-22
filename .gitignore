@@ -2,8 +2,11 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+<<<<<<< HEAD
 .idea
 /.idea
+=======
+>>>>>>> efa802d74202817908f768f64c2d627fed712efa
 
 ### Eclipse ###
 .apt_generated
